@@ -19,5 +19,5 @@ async function visualizarDados(){
 }   
 
 
-  visualizarDados()
+visualizarDados()
   
