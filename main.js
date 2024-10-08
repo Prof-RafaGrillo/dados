@@ -12,7 +12,7 @@ async function visualizarDados(){
     paragrafo.classList.add('graficos--container__texto')
     paragrafo.innerHTML ="Aqui será colocado os dados obtidos no site do IBGE"
     console.log(paragrafo)
-    const container = document.getElementsById('graficos--container')
+    const container = document.getElementById('graficos--container')
 
     container.appendChild(paragrafo)
 
