@@ -1,4 +1,4 @@
-const url = ""
+const url = "https://servicodados.ibge.gov.br/api/v3/agregados/4250/periodos/2019/variaveis/4226?localidades=N1[all]|N3[41,42,43]&classificacao=2[110095,110096]|1[1]"
 
 async function visualizarDados(){
     const res = await fetch(url)
